@@ -52,7 +52,6 @@ nav ul li {
 }
 nav ul li a {
   display: block;
-  text-decoration: none;
   font-size: 0.9em;
   font-weight: 500;
   line-height: 3em;
@@ -217,7 +216,6 @@ h2 {
 }
 
 .director-message a {
-  text-decoration: none;
   color: black;
 }
 .director-message h2 {
