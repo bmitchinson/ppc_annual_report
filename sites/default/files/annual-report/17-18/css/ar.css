@@ -550,23 +550,36 @@ h2 {
     grid-column-gap: 1em;
   }
   .impact .inner .goals .goal h3 {
-    grid-column: 1/span 4;
+    grid-column: 1/span 7;
     grid-row: 1;
   }
   .impact .inner .goals .goal p {
-    grid-column: 1/span 3;
+    grid-column: 1/span 6;
   }
   .impact .inner .goals .goal.right h3 {
-    grid-column: 4/span 4;
+    grid-column: 1/span 7;
     grid-row: 1;
   }
   .impact .inner .goals .goal.right p {
-    grid-column: 5/span 3;
+    grid-column: 2/span 6;
   }
   .impact .inner .goals .goal .highlight {
-    grid-column: 4;
+    grid-column: 3;
     grid-row: 2/span 2;
     padding: 0;
+  }
+  .impact .inner .goals .goal .highlight.col-pos-seven {
+    grid-column: 7;
+  }
+  .impact .inner .goals .goal .highlight.col-pos-one {
+    grid-column: 1;
+  }
+  .impact .inner .goals .goal.text-width-five h3 {
+    grid-column: 1/span 6;
+    grid-row: 1;
+  }
+  .impact .inner .goals .goal.text-width-five p {
+    grid-column: 1/span 5;
   }
 
   .program .inner, .education .inner, .engagement .inner {
