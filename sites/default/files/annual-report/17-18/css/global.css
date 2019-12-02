@@ -58,6 +58,7 @@ h4 {
 a {
   color: #000;
   font-weight: 700;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -112,6 +113,10 @@ ul li:last-child, ol li:last-child {
 
 .no-scroll {
   overflow: hidden;
+}
+
+.decorate-text {
+  text-decoration: underline;
 }
 
 .dark {
