@@ -634,6 +634,9 @@ h2 {
       grid-template-columns: 1fr 4fr 1fr;
       .intro {
         grid-column: 2;
+        p {
+          text-align: center;
+        }
       }
       .goals {
         grid-column: 1 / span 3;
@@ -821,7 +824,7 @@ h2 {
 
   .section {
     .inner {
-      width: 70%;
+      width: 50%;
       margin: 0 auto;
     }
   }

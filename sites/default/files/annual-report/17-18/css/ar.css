@@ -541,6 +541,9 @@ h2 {
   .impact .inner .intro {
     grid-column: 2;
   }
+  .impact .inner .intro p {
+    text-align: center;
+  }
   .impact .inner .goals {
     grid-column: 1/span 3;
   }
@@ -659,7 +662,7 @@ h2 {
   }
 
   .section .inner {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
   }
 
