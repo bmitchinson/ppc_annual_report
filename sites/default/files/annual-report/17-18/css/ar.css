@@ -37,6 +37,11 @@ nav {
   top: 0;
   z-index: 1;
 }
+@media print {
+  nav {
+    display: none;
+  }
+}
 nav ul {
   margin: 0;
   padding: 0;

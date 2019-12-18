@@ -28,6 +28,9 @@ a.anchor {
 }
 
 nav {
+  @media print {
+    display: none;
+  }
   background-color: #fff;
   border-bottom: 2px solid #FFCD00;
   position: sticky;
