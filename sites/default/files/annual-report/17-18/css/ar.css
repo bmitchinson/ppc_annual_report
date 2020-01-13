@@ -215,14 +215,28 @@ h2 {
 .center-text {
   text-align: center; }
 
+.caption {
+  color: #808080;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: .8em;
+  text-align: center;
+  font-style: italic; }
+
+.quote {
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+  .quote p {
+    max-width: 70%; }
+
 .education .inner {
   padding: 1.5em; }
   .education .inner .center-flex picture {
     display: flex;
     max-width: 100%; }
     .education .inner .center-flex picture img {
-      align-self: flex-start;
-      margin-bottom: 2em; }
+      align-self: flex-start; }
 
 .engagement .inner {
   padding: 1.5em;
@@ -340,8 +354,7 @@ h2 {
       display: flex;
       max-width: 60%; }
       .education .inner .center-flex picture img {
-        align-self: flex-start;
-        margin-bottom: 2em; }
+        align-self: flex-start; }
 
   .impact .inner .goals .goal .highlight {
     font-size: 3em; } }

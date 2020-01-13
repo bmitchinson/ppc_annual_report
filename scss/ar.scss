@@ -289,6 +289,24 @@ h2 {
   text-align: center;
 }
 
+.caption {
+  color: #808080;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: .8em;
+  text-align: center;
+  font-style: italic;
+}
+
+.quote {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  p {
+    max-width: 70%;
+  }
+}
+
 .education {
   .inner {
     padding: 1.5em;
@@ -297,7 +315,6 @@ h2 {
       max-width: 100%;
         img {
           align-self: flex-start;
-          margin-bottom: 2em;
         }
     }
     // display: grid;
@@ -530,7 +547,6 @@ h2 {
         max-width: 60%;
         img {
           align-self: flex-start;
-          margin-bottom: 2em;
         }
       }
     }
