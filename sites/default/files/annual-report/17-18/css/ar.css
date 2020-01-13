@@ -216,20 +216,19 @@ h2 {
   text-align: center; }
 
 .education .inner {
-  margin: 0em 1em 0 1.5em; }
+  padding: 1.5em; }
   .education .inner .center-flex picture {
     display: flex;
     max-width: 100%; }
     .education .inner .center-flex picture img {
-      margin-top: 2em;
       margin-bottom: 2em; }
 
-.engagement h3 {
-  margin-top: 1em;
-  margin-bottom: 1em; }
 .engagement .inner {
+  padding: 1.5em;
   margin: 0 1em 0em 1em;
   padding-bottom: 3em; }
+  .engagement .inner h3 {
+    margin-bottom: 1em; }
 @media (max-width: 767px) {
   .engagement h2 {
     font-size: 2.65em; } }

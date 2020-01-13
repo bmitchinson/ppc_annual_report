@@ -291,12 +291,11 @@ h2 {
 
 .education {
   .inner {
-    margin: 0em 1em 0 1.5em;
+    padding: 1.5em;
     .center-flex picture {
       display: flex;
       max-width: 100%;
         img {
-          margin-top: 2em;
           margin-bottom: 2em;
         }
     }
@@ -327,11 +326,11 @@ h2 {
 }
 
 .engagement {
-  h3 {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
   .inner {
+    padding: 1.5em;
+    h3 {
+      margin-bottom: 1em;
+    }
     margin: 0 1em 0em 1em;
     padding-bottom: 3em;
     // display: grid;
