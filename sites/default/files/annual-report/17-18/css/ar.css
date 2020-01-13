@@ -152,11 +152,11 @@ h2 {
     .modal .close .text {
       vertical-align: middle; }
 
-.research.section .inner, .education.section .inner, .engagement.section .inner {
+.research.section .inner {
   margin-top: 3em; }
-.research.section .about .text, .research.section article, .research.section aside, .education.section .about .text, .education.section article, .education.section aside, .engagement.section .about .text, .engagement.section article, .engagement.section aside {
+.research.section .about .text, .research.section article, .research.section aside {
   padding: 1.5em; }
-.research.section .intro, .education.section .intro, .engagement.section .intro {
+.research.section .intro {
   padding: 0 1.5em 1.5em 1.5em; }
 
 .hero {
@@ -208,44 +208,21 @@ h2 {
       width: 100%;
       height: 100%; }
 
+.center-flex {
+  display: flex;
+  justify-content: center; }
+
 .education .inner {
-  display: grid;
-  grid-row-gap: 1em;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-auto-flow: row; }
-  .education .inner aside.interns {
-    background-color: #D8D8D8;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 1em;
-    grid-template-rows: auto;
-    grid-auto-flow: row; }
-    .education .inner aside.interns .intro {
-      padding: 0; }
-    .education .inner aside.interns .inset {
-      background-color: #fff;
-      padding: 1.5em;
-      margin-bottom: 0; }
+  margin: 0em 1em 0 1.5em; }
+  .education .inner .center-flex picture {
+    display: flex;
+    max-width: 60%; }
+    .education .inner .center-flex picture img {
+      margin-top: 2em;
+      margin-bottom: 2em; }
 
 .engagement .inner {
-  display: grid;
-  grid-row-gap: 1em;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-auto-flow: row; }
-  .engagement .inner aside.other-events {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 1em;
-    grid-template-rows: auto;
-    grid-auto-flow: row;
-    padding: 1.5em 0; }
-    .engagement .inner aside.other-events h4 {
-      padding: 0 1.5rem 0.5rem 1.5rem; }
-    .engagement .inner aside.other-events .inset {
-      background-color: #ffec9e;
-      padding: 1.5em; }
+  margin-top: 3em; }
 @media (max-width: 767px) {
   .engagement h2 {
     font-size: 2.65em; } }
@@ -460,13 +437,6 @@ h2 {
         .impact .inner .goals .goal.text-width-five p {
           grid-column: 1 / span 5; }
 
-  .program .inner, .education .inner, .engagement .inner {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 3em;
-    grid-row-gap: 3em; }
-
   .program .programname {
     padding-bottom: 0;
     padding-left: 0; }
@@ -482,36 +452,7 @@ h2 {
   .education .inner article {
     padding: 1.5em 2.5em; }
   .education .inner aside.outreach {
-    background-color: #ffec9e; }
-
-  .engagement .inner .about {
-    grid-column: 1 / span 4;
-    grid-row: 1; }
-    .engagement .inner .about .text {
-      font-size: 1.1em;
-      padding: 1.5em 0; }
-  .engagement .inner article.china {
-    grid-column: 5 / span 8;
-    grid-row: 1;
-    padding: 1.5em 2.5em; }
-  .engagement .inner article.politics {
-    grid-column: 1 / span 12;
-    grid-row: 2; }
-    .engagement .inner article.politics picture {
-      max-width: 33%; }
-  .engagement .inner aside.other-events {
-    grid-column: 1 / span 12;
-    grid-row: 3;
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 1em; }
-    .engagement .inner aside.other-events h4 {
-      grid-column: 1 / span 12;
-      grid-row: 1; }
-    .engagement .inner aside.other-events .mcbride {
-      grid-column: 1 / span 3;
-      grid-row: 2 / span 2; }
-    .engagement .inner aside.other-events .palca, .engagement .inner aside.other-events .daley {
-      grid-column: 4 / span 9; } }
+    background-color: #ffec9e; } }
 @media (min-width: 1681px) {
   .hero {
     background: linear-gradient(rgba(216, 216, 216, 0.8), rgba(216, 216, 216, 0.8)), url("http://ppc.uiowa.edu/sites/default/files/annual-report/17-18/images/oldcap-large.png") no-repeat;
