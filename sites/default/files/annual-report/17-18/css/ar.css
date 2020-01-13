@@ -212,17 +212,24 @@ h2 {
   display: flex;
   justify-content: center; }
 
+.center-text {
+  text-align: center; }
+
 .education .inner {
   margin: 0em 1em 0 1.5em; }
   .education .inner .center-flex picture {
     display: flex;
-    max-width: 60%; }
+    max-width: 100%; }
     .education .inner .center-flex picture img {
       margin-top: 2em;
       margin-bottom: 2em; }
 
+.engagement h3 {
+  margin-top: 1em;
+  margin-bottom: 1em; }
 .engagement .inner {
-  margin-top: 3em; }
+  margin: 0 1em 0em 1em;
+  padding-bottom: 3em; }
 @media (max-width: 767px) {
   .engagement h2 {
     font-size: 2.65em; } }
@@ -326,6 +333,10 @@ h2 {
 
   .program .programname, .program .snippet, .program .feature, .program .about .text {
     padding: 1.5em 2.5em; }
+
+  .education .inner .center-flex picture {
+    display: flex;
+    max-width: 60%; }
 
   .impact .inner .goals .goal .highlight {
     font-size: 3em; } }

@@ -285,12 +285,16 @@ h2 {
   justify-content: center;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .education {
   .inner {
     margin: 0em 1em 0 1.5em;
     .center-flex picture {
       display: flex;
-      max-width: 60%;
+      max-width: 100%;
         img {
           margin-top: 2em;
           margin-bottom: 2em;
@@ -323,8 +327,13 @@ h2 {
 }
 
 .engagement {
+  h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
   .inner {
-    margin-top: 3em;
+    margin: 0 1em 0em 1em;
+    padding-bottom: 3em;
     // display: grid;
     // grid-row-gap: 1em;
     // grid-template-columns: 1fr;
@@ -478,7 +487,6 @@ h2 {
       &.right-align {
         float:right;
         margin: 0 0 1.5em 2.5em;
-
       }
     }
   }
@@ -511,6 +519,15 @@ h2 {
   .program {
     .programname, .snippet, .feature, .about .text {
       padding: 1.5em 2.5em;
+    }
+  }
+
+  .education {
+    .inner {
+      .center-flex picture {
+        display: flex;
+        max-width: 60%;
+      }
     }
   }
 
