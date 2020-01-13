@@ -221,6 +221,7 @@ h2 {
     display: flex;
     max-width: 100%; }
     .education .inner .center-flex picture img {
+      align-self: flex-start;
       margin-bottom: 2em; }
 
 .engagement .inner {
@@ -333,9 +334,14 @@ h2 {
   .program .programname, .program .snippet, .program .feature, .program .about .text {
     padding: 1.5em 2.5em; }
 
-  .education .inner .center-flex picture {
-    display: flex;
-    max-width: 60%; }
+  .education .inner {
+    padding: 1.5em; }
+    .education .inner .center-flex picture {
+      display: flex;
+      max-width: 60%; }
+      .education .inner .center-flex picture img {
+        align-self: flex-start;
+        margin-bottom: 2em; }
 
   .impact .inner .goals .goal .highlight {
     font-size: 3em; } }

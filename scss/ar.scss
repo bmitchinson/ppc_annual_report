@@ -296,6 +296,7 @@ h2 {
       display: flex;
       max-width: 100%;
         img {
+          align-self: flex-start;
           margin-bottom: 2em;
         }
     }
@@ -523,9 +524,14 @@ h2 {
 
   .education {
     .inner {
+      padding: 1.5em;
       .center-flex picture {
         display: flex;
         max-width: 60%;
+        img {
+          align-self: flex-start;
+          margin-bottom: 2em;
+        }
       }
     }
   }
