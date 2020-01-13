@@ -254,7 +254,7 @@ h2 {
   }
   .inner-container {
     // position: relative; //So the SVG can be absolutely positioned inside this div
-    margin-bottom: 1.5em;
+    margin: 0 1em 1.5em 1em;
     // z-index: -1; //Firefox was making this div appear above the stickied nav bar, so we have to set the Z-index
     // svg {
     //   position: absolute;
