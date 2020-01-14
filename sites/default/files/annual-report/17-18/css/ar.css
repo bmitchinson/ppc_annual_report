@@ -213,7 +213,8 @@ h2 {
   justify-content: center; }
 
 .center-text {
-  text-align: center; }
+  text-align: center;
+  margin: 0em; }
 
 .caption {
   color: #808080;
@@ -230,6 +231,14 @@ h2 {
   .quote p {
     max-width: 70%; }
 
+.float-left {
+  float: left;
+  width: 100%;
+  margin: 0em 2em 1em 0em; }
+  @media (min-width: 769px) {
+    .float-left {
+      width: 45%; } }
+
 .education .inner {
   padding: 1.5em; }
   .education .inner .center-flex picture {
@@ -239,10 +248,11 @@ h2 {
       align-self: flex-start; }
 
 .engagement .inner {
-  padding: 1.5em;
-  margin: 0 1em 0em 1em;
+  padding: 0 1.5em 1.5em 1.5em;
   padding-bottom: 3em; }
   .engagement .inner h3 {
+    margin: .5em 0 .5em 0; }
+  .engagement .inner .center-flex {
     margin-bottom: 1em; }
 @media (max-width: 767px) {
   .engagement h2 {
@@ -343,6 +353,7 @@ h2 {
     background-position: center; }
 
   .director-message h2 {
+    margin: .5em 0 1em 0;
     font-size: 1.7em; }
 
   .program .programname, .program .snippet, .program .feature, .program .about .text {
