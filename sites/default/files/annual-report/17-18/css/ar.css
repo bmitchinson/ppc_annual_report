@@ -158,6 +158,21 @@ h2 {
   padding: 1.5em; }
 .research.section .intro {
   padding: 0 1.5em 1.5em 1.5em; }
+.research.section .bullets-container {
+  display: flex; }
+  .research.section .bullets-container picture {
+    display: flex;
+    width: 30%; }
+    .research.section .bullets-container picture img {
+      height: auto;
+      align-self: center;
+      margin-top: 2em;
+      margin-bottom: 2em; }
+  .research.section .bullets-container .bullets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%; }
 
 .hero {
   background: linear-gradient(rgba(216, 216, 216, 0.8), rgba(216, 216, 216, 0.8)), url("http://ppc.uiowa.edu/sites/default/files/annual-report/17-18/images/oldcap-small.png") no-repeat;

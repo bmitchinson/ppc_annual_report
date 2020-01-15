@@ -208,6 +208,25 @@ h2 {
   .intro {
     padding: 0 1.5em 1.5em 1.5em;
   }
+  .bullets-container {
+    display: flex;
+    picture {
+      display: flex;
+      width: 30%;
+      img {
+        height: auto;
+        align-self: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+      }
+    }
+    .bullets {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 70%;
+    }
+  }
 }
 
 .hero {
