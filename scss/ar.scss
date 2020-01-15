@@ -208,6 +208,14 @@ h2 {
   .intro {
     padding: 0 1.5em 1.5em 1.5em;
   }
+  .center-flex picture {
+    display: flex;
+    max-width: 50%;
+    margin: 1em 0 2em 0;
+      img {
+        align-self: flex-start;
+      }
+  }
   .bullets-container {
     display: flex;
     picture {

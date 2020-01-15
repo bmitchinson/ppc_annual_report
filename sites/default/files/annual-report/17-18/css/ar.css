@@ -158,6 +158,12 @@ h2 {
   padding: 1.5em; }
 .research.section .intro {
   padding: 0 1.5em 1.5em 1.5em; }
+.research.section .center-flex picture {
+  display: flex;
+  max-width: 50%;
+  margin: 1em 0 2em 0; }
+  .research.section .center-flex picture img {
+    align-self: flex-start; }
 .research.section .bullets-container {
   display: flex; }
   .research.section .bullets-container picture {
