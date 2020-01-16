@@ -260,6 +260,9 @@ h2 {
     .float-left {
       width: 45%; } }
 
+.vert-margin {
+  margin: 2em 0em 2em 0em; }
+
 .education .inner {
   padding: 1.5em; }
   .education .inner .center-flex picture {
